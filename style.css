@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 15px;
+    animation: bounce 1s infinite;
+}
+
+.red {
+    background-color: #DB4437;
+}
+
+.green {
+    background-color: #0F9D58;
+    animation-delay: 0.25s;
+}
+
+.blue {
+    background-color: #4285F4;
+    animation-delay: 0.5s;
+}
+
+.yellow {
+    background-color: #F4B400;
+    animation-delay: 0.75s;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(40px);
+    }
+}
